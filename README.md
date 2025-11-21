@@ -25,7 +25,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-~~~
+```
 ----models.py
 from django.db import models 
 from django.contrib import admin
@@ -41,10 +41,11 @@ class amazon_DBAdmin(admin.ModelAdmin):
 from django.contrib import admin
 from .models import amazon_DB,amazon_DBAdmin
 admin.site.register(amazon_DB,amazon_DBAdmin)
-
+```
 ##OUTPUT
-ex1/ORM/sasmina/ormapp/Screenshot 2025-11-21 161245.png
-ex1/ORM/sasmina/ormapp/Screenshot 2025-11-21 162036.png
+<img width="1917" height="852" alt="Screenshot 2025-11-21 161245" src="https://github.com/user-attachments/assets/052d6a56-9237-43b4-b9cb-640c709aa6f4" />
+<img width="1081" height="646" alt="Screenshot 2025-11-21 162036" src="https://github.com/user-attachments/assets/effeceff-1a25-48e4-b3ec-c1e9db7a9436" />
+
 
 ## RESULT
 Thus the program for creating E-commerce website database using ORM hass been executed successfully
