@@ -42,9 +42,9 @@ from django.contrib import admin
 from .models import amazon_DB,amazon_DBAdmin
 admin.site.register(amazon_DB,amazon_DBAdmin)
 
-## OUTPUT
-Screenshot 2025-11-21 161245.png
-Screenshot 2025-11-21 162036.png
+##OUTPUT
+ex1/ORM/sasmina/ormapp/Screenshot 2025-11-21 161245.png
+ex1/ORM/sasmina/ormapp/Screenshot 2025-11-21 162036.png
 
 ## RESULT
 Thus the program for creating E-commerce website database using ORM hass been executed successfully
